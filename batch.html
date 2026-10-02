@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090b10">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="CODEX STUDYS">
+  <title>Batch — CODEX STUDYS</title>
+  <link rel="icon" href="assets/mj-icon-192.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/mj-icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>(function(){var t=localStorage.getItem("codex-studys-theme");if(t&&t!=="system")document.documentElement.setAttribute("data-theme",t);})();</script>
+  <link rel="stylesheet" href="batch.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="back-btn" id="backBtn" type="button" aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5-7 7 7 7"/></svg></button>
+    <h1 class="top-title" id="topTitle">Loading…</h1>
+  </header>
+
+  <main class="page" id="page">
+    <div class="list"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+  </main>
+
+  <section class="player" id="player" role="dialog" aria-modal="true" aria-label="Player">
+    <div class="p-head">
+      <div class="p-title" id="pTitle"></div>
+      <button class="p-close" id="pClose" type="button">Done</button>
+    </div>
+    <div class="p-stage" id="pStage">
+      <video id="pVideo" controls playsinline controlslist="nodownload"></video>
+      <div class="p-msg" id="pMsg"></div>
+    </div>
+    <div class="p-bar">
+      <button class="pill-btn" id="pPrev" type="button">◀ Prev</button>
+      <button class="pill-btn solid" id="pNext" type="button">Next ▶</button>
+      <select id="pSpeed" aria-label="Playback speed">
+        <option value="0.5">0.5x</option><option value="0.75">0.75x</option><option value="1" selected>1x</option>
+        <option value="1.25">1.25x</option><option value="1.5">1.5x</option><option value="1.75">1.75x</option><option value="2">2x</option>
+      </select>
+      <span class="spacer"></span>
+    </div>
+    <div class="p-list" id="pList"></div>
+  </section>
+  <div class="toast" id="toast"></div>
+  <script src="batch.js"></script>
+</body>
+</html>

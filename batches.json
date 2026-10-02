@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "batches": [
+    {
+      "_id": "arun-reasoning-spl",
+      "name": "Reasoning Spl. (Live + VOD)",
+      "byName": "Arun Sir · Reasoning for SSC, Banking, Railway & State exams",
+      "language": "Hinglish",
+      "previewImage": "assets/batch-arun-reasoning-spl.webp",
+      "type": "CW_BATCH",
+      "category": "ssc",
+      "slug": "arun-reasoning-spl",
+      "lectureCount": 954,
+      "noteCount": 326,
+      "subBatches": []
+    },
+    {
+      "_id": "ssc-pratham-2026",
+      "name": "SSC Pratham 2026 (VOD Batch)",
+      "byName": "Complete foundation for SSC exams — Maths, English, Reasoning & GS",
+      "language": "Hinglish",
+      "previewImage": "assets/batch-ssc-pratham-2026.webp",
+      "type": "CW_BATCH",
+      "category": "ssc",
+      "slug": "ssc-pratham-2026",
+      "lectureCount": 2057,
+      "noteCount": 1555,
+      "subBatches": []
+    },
+    {
+      "_id": "banking-spl-40",
+      "name": "Banking Spl-40",
+      "byName": "Banking Special batch — English, Reasoning, Maths, GA & Computer",
+      "language": "Hinglish",
+      "previewImage": "assets/batch-banking-spl-40.webp",
+      "type": "CW_BATCH",
+      "category": "banking",
+      "slug": "banking-spl-40",
+      "lectureCount": 937,
+      "noteCount": 410,
+      "subBatches": []
+    },
+    {
+      "_id": "ultra-calculation-3-0",
+      "name": "Ultra Calculation 3.0 & 4.0",
+      "byName": "Abhinay Sir · Fast calculation tricks for SSC Maths",
+      "language": "Hinglish",
+      "previewImage": "assets/batch-ultra-calculation-3-0.webp",
+      "type": "CW_BATCH",
+      "category": "ssc",
+      "slug": "ultra-calculation-3-0",
+      "lectureCount": 87,
+      "noteCount": 113,
+      "subBatches": []
+    },
+    {
+      "_id": "upsc-ias-2025-26",
+      "name": "UPSC IAS (2025-26) Hindi-01",
+      "byName": "Recorded batch · Polity, Economy, Geography, History, Environment & more",
+      "language": "Hindi",
+      "previewImage": "assets/batch-upsc-ias-2025-26.webp",
+      "type": "CW_BATCH",
+      "category": "upsc",
+      "slug": "upsc-ias-2025-26",
+      "lectureCount": 854,
+      "noteCount": 298,
+      "subBatches": []
+    }
+  ]
+}
